@@ -1,0 +1,219 @@
+.cartback {
+  height: 400px;
+  background: url(./img/cart.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__catalog {
+    padding-top: 127px;
+    padding-bottom: 126px;
+  }
+  &__position {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.8);
+  }
+  &__heading {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 70px;
+    padding-bottom: 16px;
+    max-width: 792px;
+    color: #ffffff;
+  }
+}
+
+// ORDER CONTAIN  //
+//<<<  &__content, &__header, &__block,  &__card,   &__info, &__chair, &__adres, &__mebel,
+//     &__score1,  &__links,  &__link,   &__making, &__chairs >>>
+.order {
+  padding-top: 64px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+
+  &__content {
+    grid-column: span 8;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+  }
+  &__block {
+    border-top: 0.5px solid #cacdd8;
+    padding-top: 25px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__card {
+    display: flex;
+    gap: 32px;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  &__chair {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  &__adres {
+    display: flex;
+    padding: 35px 64px 64px 27px;
+    gap: 42px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.07px;
+    letter-spacing: 0px;
+    text-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__mebel {
+    width: 276px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+    font-family: Montserrat;
+    font-weight: 400;
+    letter-spacing: 0%;
+  }
+  &__score1 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    color: #050505;
+  }
+  &__links {
+    display: flex;
+    gap: 30px;
+  }
+  &__link {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29.4px;
+    letter-spacing: 0px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: Auto;
+    color: #000000;
+  }
+
+  &__making {
+    border-radius: 20px;
+    background: #f7f6f6;
+    height: 556px;
+    grid-column: span 4;
+  }
+  &__chairs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 42px;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29.26px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+}
+
+// ORDER CONTAIN  //
+// &__line, &__input, &__style, &__position, &__btn, &__menu, &__btns
+.order {
+  &__line {
+    border-bottom: 1px solid #cacdd8;
+    width: 288px;
+    display: flex;
+    align-items: flex-start;
+  }
+  &__input {
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 29.4px;
+    letter-spacing: 0px;
+    text-align: center;
+    background: #f7f6f6;
+    border: none;
+    outline: none;
+    padding-right: 14px;
+  }
+  &__style {
+    display: flex;
+    width: 71px;
+    height: 51px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6px;
+    background: #f7f6f6;
+  }
+  &__position {
+    display: flex;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.26px;
+    letter-spacing: 0px;
+    text-align: center;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+  }
+  &__btn {
+    width: 290px;
+    height: 41px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.5px;
+    letter-spacing: 0px;
+    text-align: center;
+    border: 1px solid #040404;
+    border-radius: 20px;
+  }
+
+  &__menu {
+    display: flex;
+    gap: 7px;
+    padding-top: 18px;
+  }
+  &__btns {
+    background-color: inherit;
+    border: 1px solid #040404;
+    border-radius: 20px;
+    width: 200px;
+    height: 37px;
+  }
+}
+.section {
+  &__chair {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+  }
+
+  &__mebel {
+    font-size: 14px;
+    line-height: 17px;
+    color: #888888;
+  }
+}
