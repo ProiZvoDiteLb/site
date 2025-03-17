@@ -463,6 +463,16 @@ body {
     text-decoration: none;
     color: #888888;
   }
+  &__link {
+    text-decoration: underline;
+    
+  }
+  &__link:hover {
+    text-decoration: none;
+    color: #cecbcb;
+  }
+  
+
 }
 .block {
   padding-top: 64px;

@@ -930,7 +930,7 @@ body {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-image: url(/arrow.png);
+  background-image: url(./arrow.png);
   background-repeat: no-repeat;
   background-position-x: 185px;
   background-position-y: center;
@@ -965,6 +965,13 @@ body {
 .menu__linkk:hover {
   text-decoration: none;
   color: #888888;
+}
+.menu__link {
+  text-decoration: underline;
+}
+.menu__link:hover {
+  text-decoration: none;
+  color: #cecbcb;
 }
 
 .block {
