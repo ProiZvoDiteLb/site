@@ -621,6 +621,35 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   gap: 10px;
+  position: relative;
+}
+.product__content {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  padding-top: 10px;
+  padding-right: 10px;
+  gap: 21px;
+  width: 100%;
+  z-index: 1;
+  justify-content: flex-end;
+  display: none;
+}
+.product__link {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.product:hover .product__content {
+  display: block;
+  display: flex;
+}
+
+.product__link path {
+  fill: #fff;
+  transition: 1s;
 }
 
 .section__image {
